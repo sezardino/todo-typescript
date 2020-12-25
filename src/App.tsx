@@ -1,7 +1,17 @@
-import './App.css';
+import Form from './components/form';
+import Nav from './components/nav';
+import List from './components/list';
 
 const App = () => {
-  return (<h1>TypeScript</h1>);
-}
+  return (
+    <>
+      <Nav />
+      <div className="container">
+        <Form />
+        <List />
+      </div>
+    </>
+  );
+};
 
 export default App;
